@@ -1,6 +1,6 @@
 # AmazonChineseHelper 🛒🇨🇳
 
-A tool to help Chinese users better understand and use Amazon.
+A tool to help Chinese users to use Amazon USA.
 
 ## ✨ Features (planned)
 - Translate product descriptions
