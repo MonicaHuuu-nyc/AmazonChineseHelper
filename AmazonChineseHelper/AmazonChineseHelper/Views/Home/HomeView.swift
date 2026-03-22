@@ -1,32 +1,41 @@
 import SwiftUI
 
+enum HomeDestination: Hashable {
+    case search(query: String)
+    case productDetail(id: String)
+}
+
 struct HomeView: View {
     @State private var viewModel = HomeViewModel()
-    @State private var navigateToSearch = false
+    @State private var path = NavigationPath()
     @State private var searchQuery = ""
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: AppSpacing.sectionGap) {
-                greetingSection
-                searchSection
-                categorySection
-                frequentlyBoughtSection
-                recommendationsSection
+        NavigationStack(path: $path) {
+            ScrollView {
+                VStack(alignment: .leading, spacing: AppSpacing.sectionGap) {
+                    greetingSection
+                    searchSection
+                    categorySection
+                    frequentlyBoughtSection
+                    recommendationsSection
+                }
+                .padding(.bottom, AppSpacing.xxxl)
             }
-            .padding(.bottom, AppSpacing.xxxl)
-        }
-        .background(AppColors.backgroundSecondary)
-        .navigationTitle("亚马逊中文购物助手")
-        .navigationBarTitleDisplayMode(.inline)
-        .task {
-            await viewModel.loadData()
-        }
-        .navigationDestination(for: String.self) { productID in
-            ProductDetailView(productID: productID)
-        }
-        .navigationDestination(isPresented: $navigateToSearch) {
-            SearchResultsView(initialQuery: searchQuery)
+            .background(AppColors.backgroundSecondary)
+            .navigationTitle("亚马逊中文购物助手")
+            .navigationBarTitleDisplayMode(.inline)
+            .task {
+                await viewModel.loadData()
+            }
+            .navigationDestination(for: HomeDestination.self) { destination in
+                switch destination {
+                case .search(let query):
+                    SearchResultsView(initialQuery: query)
+                case .productDetail(let id):
+                    ProductDetailView(productID: id)
+                }
+            }
         }
     }
 
@@ -51,7 +60,7 @@ struct HomeView: View {
     private var searchSection: some View {
         SearchBarView(text: $searchQuery) {
             guard !searchQuery.trimmingCharacters(in: .whitespaces).isEmpty else { return }
-            navigateToSearch = true
+            path.append(HomeDestination.search(query: searchQuery))
         }
         .padding(.horizontal, AppSpacing.screenHorizontal)
     }
@@ -62,8 +71,7 @@ struct HomeView: View {
         Group {
             if !viewModel.categories.isEmpty {
                 CategoryGridView(categories: viewModel.categories) { category in
-                    searchQuery = category.name
-                    navigateToSearch = true
+                    path.append(HomeDestination.search(query: category.name))
                 }
                 .padding(.horizontal, AppSpacing.screenHorizontal)
             }
@@ -82,7 +90,7 @@ struct HomeView: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: AppSpacing.md) {
                             ForEach(viewModel.frequentlyBought) { product in
-                                NavigationLink(value: product.id) {
+                                NavigationLink(value: HomeDestination.productDetail(id: product.id)) {
                                     ProductCardCompact(product: product)
                                 }
                                 .buttonStyle(.plain)
@@ -106,7 +114,7 @@ struct HomeView: View {
 
                     LazyVStack(spacing: AppSpacing.md) {
                         ForEach(viewModel.recommendations) { product in
-                            NavigationLink(value: product.id) {
+                            NavigationLink(value: HomeDestination.productDetail(id: product.id)) {
                                 ProductCardRecommendation(product: product)
                             }
                             .buttonStyle(.plain)
@@ -120,9 +128,7 @@ struct HomeView: View {
 }
 
 #Preview {
-    NavigationStack {
-        HomeView()
-    }
-    .environment(SettingsStore())
-    .environment(FavoritesStore(service: LocalFavoritesService()))
+    HomeView()
+        .environment(SettingsStore())
+        .environment(FavoritesStore(service: LocalFavoritesService()))
 }

@@ -12,9 +12,7 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selectedTab) {
             Tab("首页", systemImage: "house.fill", value: .home) {
-                NavigationStack {
-                    HomeView()
-                }
+                HomeView()
             }
             Tab("收藏", systemImage: "heart.fill", value: .favorites) {
                 NavigationStack {

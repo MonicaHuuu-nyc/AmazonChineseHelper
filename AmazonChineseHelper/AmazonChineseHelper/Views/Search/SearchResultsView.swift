@@ -33,9 +33,6 @@ struct SearchResultsView: View {
         .task {
             await viewModel.search()
         }
-        .navigationDestination(for: String.self) { productID in
-            ProductDetailView(productID: productID)
-        }
     }
 
     // MARK: - Search Bar
@@ -88,7 +85,7 @@ struct SearchResultsView: View {
     private var productList: some View {
         LazyVStack(spacing: AppSpacing.md) {
             ForEach(viewModel.products) { product in
-                NavigationLink(value: product.id) {
+                NavigationLink(value: HomeDestination.productDetail(id: product.id)) {
                     ProductCardSearch(
                         product: product,
                         isFavorite: favoritesStore.isFavorite(productID: product.id),
