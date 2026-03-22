@@ -1,0 +1,38 @@
+{
+  "SearchResult": {
+    "TotalResultCount": 1,
+    "Items": [
+      {
+        "ASIN": "B0TEST0001",
+        "ItemInfo": {
+          "Title": {
+            "DisplayValue": "Test Bluetooth Speaker Portable"
+          },
+          "Features": {
+            "DisplayValues": [
+              "Bluetooth 5.3 connectivity",
+              "IPX7 waterproof rating"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [
+            {
+              "Price": {
+                "Amount": 29.99,
+                "Currency": "USD"
+              }
+            }
+          ]
+        },
+        "Images": {
+          "Primary": {
+            "Large": {
+              "URL": "https://example.com/image.jpg"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

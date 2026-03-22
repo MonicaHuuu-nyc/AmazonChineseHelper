@@ -1,0 +1,12 @@
+[
+  {"id": "electronics", "name": "电子产品", "icon": "desktopcomputer", "browse_node_id": "172282"},
+  {"id": "home", "name": "家居厨房", "icon": "house.fill", "browse_node_id": "1055398"},
+  {"id": "beauty", "name": "美妆个护", "icon": "sparkles", "browse_node_id": "3760911"},
+  {"id": "toys", "name": "玩具游戏", "icon": "gamecontroller.fill", "browse_node_id": "165793011"},
+  {"id": "clothing", "name": "服饰鞋包", "icon": "tshirt.fill", "browse_node_id": "7141123011"},
+  {"id": "baby", "name": "母婴用品", "icon": "figure.and.child.holdinghands", "browse_node_id": "165796011"},
+  {"id": "sports", "name": "运动户外", "icon": "figure.run", "browse_node_id": "3375251"},
+  {"id": "food", "name": "食品保健", "icon": "leaf.fill", "browse_node_id": "16310101"},
+  {"id": "pets", "name": "宠物用品", "icon": "pawprint.fill", "browse_node_id": "2619533011"},
+  {"id": "office", "name": "办公文具", "icon": "pencil.and.ruler.fill", "browse_node_id": "1064954"}
+]
