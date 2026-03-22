@@ -1,0 +1,8 @@
+[
+  { "id": "hot",         "name": "热门产品", "iconName": "flame.fill" },
+  { "id": "beauty",      "name": "美妆",     "iconName": "sparkles" },
+  { "id": "food",        "name": "美食",     "iconName": "fork.knife" },
+  { "id": "electronics", "name": "通讯",     "iconName": "iphone" },
+  { "id": "pets",        "name": "宠物用品", "iconName": "pawprint.fill" },
+  { "id": "cleaning",    "name": "清洁",     "iconName": "bubbles.and.sparkles" }
+]

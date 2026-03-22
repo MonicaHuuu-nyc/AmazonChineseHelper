@@ -1,0 +1,331 @@
+[
+  {
+    "id": "B0BSHF7WHT",
+    "title": "iPad Pro 11英寸 (第四代): M2 芯片, 液网视网膜显示屏, 128GB, 深空灰色",
+    "originalTitle": "Apple iPad Pro 11-inch (4th Generation): with M2 chip, Liquid Retina Display, 128GB, Space Gray",
+    "price": 799.00,
+    "currency": "usd",
+    "convertedPrice": 5673.00,
+    "originalPrice": null,
+    "rating": 4.9,
+    "reviewCount": 12403,
+    "imageNames": ["ipad.landscape", "ipad", "cpu", "apple.logo", "macwindow"],
+    "description": "这款 iPad Pro 搭载了强大的 M2 芯片，性能飞跃，无论是处理复杂的 4K 视频剪辑，还是构建 3D 设计模型，都能轻松应对。纤薄的设计搭配极致的屏幕，是专业创作者的首选。",
+    "highlights": [
+      { "id": "h1", "iconName": "cpu",            "title": "M2 芯片",            "subtitle": "性能提升 15%，图形处理快 35%" },
+      { "id": "h2", "iconName": "video.fill",     "title": "ProRes 视频录制",    "subtitle": "首次支持专业视频编辑的 iPad" },
+      { "id": "h3", "iconName": "pencil.tip",     "title": "Apple Pencil 悬停",  "subtitle": "精准书写交互式体验" }
+    ],
+    "warnings": [
+      "需要转换插头 (国内插座适用)",
+      "全球保修 (这不同 国内直接送修)",
+      "包装不含 Apple Pencil"
+    ],
+    "tags": [
+      { "label": "高端旗舰", "style": "premium" },
+      { "label": "高科技", "style": "highTech" }
+    ],
+    "source": "Apple 旗舰店",
+    "amazonURL": "https://www.amazon.com/dp/B0BSHF7WHT",
+    "categoryId": "electronics",
+    "isBadged": true,
+    "isOnSale": false
+  },
+  {
+    "id": "B0BX2L8PFN",
+    "title": "降噪无线耳机 - 皮质白",
+    "originalTitle": "Noise Cancelling Wireless Headphones - Ivory White",
+    "price": 199.00,
+    "currency": "usd",
+    "convertedPrice": 1413.00,
+    "originalPrice": null,
+    "rating": 4.6,
+    "reviewCount": 8742,
+    "imageNames": ["headphones", "waveform", "ear"],
+    "description": "采用旗舰降噪技术，30小时超长续航，佩戴舒适轻盈。支持多点连接，无缝切换设备。皮质耳罩提供出色隔音效果，适合通勤和办公使用。",
+    "highlights": [
+      { "id": "h4", "iconName": "waveform.badge.minus", "title": "旗舰降噪",   "subtitle": "智能环境音自适应调节" },
+      { "id": "h5", "iconName": "battery.100",          "title": "30小时续航", "subtitle": "快充10分钟可用5小时" }
+    ],
+    "warnings": [],
+    "tags": [
+      { "label": "人气之选", "style": "popular" }
+    ],
+    "source": "亚马逊自营",
+    "amazonURL": "https://www.amazon.com/dp/B0BX2L8PFN",
+    "categoryId": "electronics",
+    "isBadged": false,
+    "isOnSale": false
+  },
+  {
+    "id": "B09LM4FGQ1",
+    "title": "飞利浦声波电动牙刷 HX9911",
+    "originalTitle": "Philips Sonicare DiamondClean Smart Electric Toothbrush HX9911",
+    "price": 149.95,
+    "currency": "usd",
+    "convertedPrice": 1065.00,
+    "originalPrice": null,
+    "rating": 4.7,
+    "reviewCount": 15632,
+    "imageNames": ["mouth", "sparkles", "wand.and.stars"],
+    "description": "适合敏感牙龈，深度清洁。附带旅行盒与智能压力传感器，三种刷牙模式满足不同需求。声波技术每分钟31000次振动，有效去除牙菌斑。",
+    "highlights": [
+      { "id": "h6", "iconName": "wand.and.stars",   "title": "声波技术",       "subtitle": "每分钟31,000次振动" },
+      { "id": "h7", "iconName": "sensor.fill",      "title": "智能压力感应",   "subtitle": "保护牙龈不受过度刷牙伤害" }
+    ],
+    "warnings": [
+      "充电器为美式插头 (110V)"
+    ],
+    "tags": [
+      { "label": "人气之选", "style": "popular" },
+      { "label": "基础用", "style": "basic" }
+    ],
+    "source": "Philips 官方店",
+    "amazonURL": "https://www.amazon.com/dp/B09LM4FGQ1",
+    "categoryId": "beauty",
+    "isBadged": false,
+    "isOnSale": false
+  },
+  {
+    "id": "B09V3KXJPB",
+    "title": "Oral-B iO 系列 9 智能电动牙刷",
+    "originalTitle": "Oral-B iO Series 9 Rechargeable Electric Toothbrush",
+    "price": 249.99,
+    "currency": "usd",
+    "convertedPrice": 1775.00,
+    "originalPrice": null,
+    "rating": 4.5,
+    "reviewCount": 9871,
+    "imageNames": ["mouth.fill", "waveform", "gearshape"],
+    "description": "微震动技术，3D 牙齿追踪，彩色显示屏提供实时反馈。iO技术结合圆形刷头，全方位清洁每颗牙齿。智能App连接追踪刷牙习惯。",
+    "highlights": [
+      { "id": "h8",  "iconName": "rotate.3d",       "title": "3D 追踪技术",   "subtitle": "确保每颗牙齿都被清洁到" },
+      { "id": "h9",  "iconName": "display",          "title": "彩色显示屏",    "subtitle": "实时刷牙引导与反馈" }
+    ],
+    "warnings": [],
+    "tags": [
+      { "label": "高端旗舰", "style": "premium" },
+      { "label": "高科技", "style": "highTech" }
+    ],
+    "source": "Oral-B 官方店",
+    "amazonURL": "https://www.amazon.com/dp/B09V3KXJPB",
+    "categoryId": "beauty",
+    "isBadged": false,
+    "isOnSale": false
+  },
+  {
+    "id": "B078GX8MBL",
+    "title": "AquaSonic Black 系列 超声波电动牙刷",
+    "originalTitle": "AquaSonic Black Series Ultra Whitening Toothbrush",
+    "price": 39.99,
+    "currency": "usd",
+    "convertedPrice": 284.00,
+    "originalPrice": null,
+    "rating": 4.4,
+    "reviewCount": 62150,
+    "imageNames": ["mouth", "sparkle", "gift"],
+    "description": "极高性价比，包含8个刷头。美白效果显著，多种模式可选。超声波振动深层清洁，配送旅行盒，是日常口腔护理的理想选择。",
+    "highlights": [
+      { "id": "h10", "iconName": "gift.fill",        "title": "8个替换刷头",   "subtitle": "超值套装，可用超过两年" },
+      { "id": "h11", "iconName": "sparkles",          "title": "美白模式",      "subtitle": "专业级美白清洁效果" }
+    ],
+    "warnings": [],
+    "tags": [
+      { "label": "性价比高", "style": "value" },
+      { "label": "超值套装", "style": "bundle" }
+    ],
+    "source": "AquaSonic 官方",
+    "amazonURL": "https://www.amazon.com/dp/B078GX8MBL",
+    "categoryId": "beauty",
+    "isBadged": false,
+    "isOnSale": false
+  },
+  {
+    "id": "B08M9F3B5Y",
+    "title": "飞利浦 儿童款 声波电动牙刷",
+    "originalTitle": "Philips Sonicare for Kids Electric Toothbrush",
+    "price": 49.99,
+    "currency": "usd",
+    "convertedPrice": 355.00,
+    "originalPrice": null,
+    "rating": 4.8,
+    "reviewCount": 4523,
+    "imageNames": ["face.smiling", "sparkles", "figure.child"],
+    "description": "蓝牙连接 APP，寓教于乐，帮助孩子养成刷牙好习惯。趣味贴纸装饰，两分钟计时器，温和刷毛保护儿童牙龈。",
+    "highlights": [
+      { "id": "h12", "iconName": "iphone.badge.play",  "title": "互动 App",    "subtitle": "趣味游戏引导刷牙" },
+      { "id": "h13", "iconName": "timer",               "title": "智能计时",    "subtitle": "KidTimer 循序渐进延长刷牙时间" }
+    ],
+    "warnings": [],
+    "tags": [
+      { "label": "育儿推荐", "style": "kids" }
+    ],
+    "source": "Philips 官方店",
+    "amazonURL": "https://www.amazon.com/dp/B08M9F3B5Y",
+    "categoryId": "beauty",
+    "isBadged": false,
+    "isOnSale": false
+  },
+  {
+    "id": "B0DFDKP4HG",
+    "title": "智能恒温电水壶 1.7升不锈钢",
+    "originalTitle": "Smart Electric Kettle, 1.7L Stainless Steel with Temperature Control",
+    "price": 45.50,
+    "currency": "usd",
+    "convertedPrice": 323.00,
+    "originalPrice": null,
+    "rating": 4.3,
+    "reviewCount": 3287,
+    "imageNames": ["cup.and.saucer.fill", "thermometer", "bolt.fill"],
+    "description": "八档精准温控，保温2小时。304不锈钢内胆，快速沸腾仅需4分钟。LED温度显示，自动断电保护，是泡茶和冲咖啡的理想选择。",
+    "highlights": [
+      { "id": "h14", "iconName": "thermometer.medium",  "title": "8档温控",   "subtitle": "40°C到100°C精准控温" },
+      { "id": "h15", "iconName": "shield.checkered",    "title": "安全保护",  "subtitle": "干烧自动断电" }
+    ],
+    "warnings": [
+      "美式110V电压 (国内需要变压器)"
+    ],
+    "tags": [
+      { "label": "人气之选", "style": "popular" }
+    ],
+    "source": "亚马逊自营",
+    "amazonURL": "https://www.amazon.com/dp/B0DFDKP4HG",
+    "categoryId": "hot",
+    "isBadged": false,
+    "isOnSale": false
+  },
+  {
+    "id": "B07FZ8S74R",
+    "title": "耐克 (Nike) Air Zoom Pegasus 39 男士轻量透气跑鞋",
+    "originalTitle": "Nike Air Zoom Pegasus 39 Men's Running Shoes",
+    "price": 119.99,
+    "currency": "usd",
+    "convertedPrice": 852.00,
+    "originalPrice": null,
+    "rating": 4.6,
+    "reviewCount": 21543,
+    "imageNames": ["figure.run", "shoe.fill", "wind"],
+    "description": "经典跑鞋系列第39代，React泡棉中底提供出色缓震。Flywire飞线技术贴合脚型，透气网面鞋面保持干爽。适合日常跑步和健身训练。",
+    "highlights": [
+      { "id": "h16", "iconName": "figure.run",    "title": "React 缓震",     "subtitle": "能量回弹，轻盈脚感" },
+      { "id": "h17", "iconName": "wind",           "title": "透气网面",       "subtitle": "Flywire 技术动态贴合" }
+    ],
+    "warnings": [
+      "美国尺码 (请参考尺码对照表)"
+    ],
+    "tags": [
+      { "label": "人气之选", "style": "popular" }
+    ],
+    "source": "亚马逊淘外购",
+    "amazonURL": "https://www.amazon.com/dp/B07FZ8S74R",
+    "categoryId": "hot",
+    "isBadged": false,
+    "isOnSale": false
+  },
+  {
+    "id": "B003O0MNUO",
+    "title": "Nature Made 维生素C 补充剂 500mg 250粒",
+    "originalTitle": "Nature Made Vitamin C 500mg Tablets, 250 Count",
+    "price": 12.99,
+    "currency": "usd",
+    "convertedPrice": 92.00,
+    "originalPrice": null,
+    "rating": 4.8,
+    "reviewCount": 45872,
+    "imageNames": ["pill.fill", "leaf.fill", "heart.fill"],
+    "description": "美国药剂师推荐品牌第一名。每粒含500mg维生素C，支持免疫系统健康。不含人工色素和防腐剂，通过USP认证。",
+    "highlights": [
+      { "id": "h18", "iconName": "checkmark.seal.fill",  "title": "USP 认证",    "subtitle": "纯度与效力经过独立验证" },
+      { "id": "h19", "iconName": "cross.vial.fill",       "title": "无添加",      "subtitle": "不含麸质、人工色素和防腐剂" }
+    ],
+    "warnings": [],
+    "tags": [
+      { "label": "人气之选", "style": "popular" }
+    ],
+    "source": "亚马逊自营",
+    "amazonURL": "https://www.amazon.com/dp/B003O0MNUO",
+    "categoryId": "food",
+    "isBadged": true,
+    "isOnSale": false
+  },
+  {
+    "id": "B09NKGM7GX",
+    "title": "现代简约不锈钢石英腕表 - 蓝宝石镜面防水设计",
+    "originalTitle": "Modern Minimalist Stainless Steel Quartz Watch - Sapphire Crystal Waterproof",
+    "price": 175.00,
+    "currency": "usd",
+    "convertedPrice": 1243.00,
+    "originalPrice": 250.00,
+    "rating": 4.4,
+    "reviewCount": 2156,
+    "imageNames": ["applewatch", "clock.fill", "drop.fill"],
+    "description": "日本进口石英机芯，蓝宝石水晶镜面耐刮耐磨。50米防水等级，316L不锈钢表壳。简约表盘设计，商务休闲两相宜。",
+    "highlights": [
+      { "id": "h20", "iconName": "clock.fill",           "title": "日本机芯",  "subtitle": "精准走时，月误差±15秒" },
+      { "id": "h21", "iconName": "drop.fill",            "title": "50米防水",  "subtitle": "日常防水，可佩戴淋浴" }
+    ],
+    "warnings": [],
+    "tags": [
+      { "label": "性价比高", "style": "value" }
+    ],
+    "source": "亚马逊淘外购",
+    "amazonURL": "https://www.amazon.com/dp/B09NKGM7GX",
+    "categoryId": "hot",
+    "isBadged": false,
+    "isOnSale": true
+  },
+  {
+    "id": "B0CX23GFMJ",
+    "title": "专业级无线降噪耳机 - 60小时续航 Hi-Res金标认证",
+    "originalTitle": "Professional Wireless Noise Cancelling Headphones - 60H Battery Hi-Res Certified",
+    "price": 309.00,
+    "currency": "usd",
+    "convertedPrice": 2194.00,
+    "originalPrice": null,
+    "rating": 4.7,
+    "reviewCount": 5439,
+    "imageNames": ["headphones", "hifispeaker.fill", "waveform.path"],
+    "description": "Hi-Res Audio金标认证，LDAC高清蓝牙编码。60小时超长续航，快充5分钟听歌3小时。多重降噪模式适应不同环境。",
+    "highlights": [
+      { "id": "h22", "iconName": "hifispeaker.fill",  "title": "Hi-Res 认证",  "subtitle": "LDAC 编码，还原录音室音质" },
+      { "id": "h23", "iconName": "battery.100",        "title": "60小时续航",   "subtitle": "超长电池寿命，告别续航焦虑" }
+    ],
+    "warnings": [],
+    "tags": [
+      { "label": "高端旗舰", "style": "premium" },
+      { "label": "高科技", "style": "highTech" }
+    ],
+    "source": "亚马逊美国",
+    "amazonURL": "https://www.amazon.com/dp/B0CX23GFMJ",
+    "categoryId": "electronics",
+    "isBadged": false,
+    "isOnSale": false
+  },
+  {
+    "id": "B0DFNL5RP3",
+    "title": "Hydro Flask 不锈钢保温水壶 946ml 宽口",
+    "originalTitle": "Hydro Flask Wide Mouth Stainless Steel Water Bottle, 32 oz",
+    "price": 44.95,
+    "currency": "usd",
+    "convertedPrice": 319.00,
+    "originalPrice": 54.95,
+    "rating": 4.8,
+    "reviewCount": 38921,
+    "imageNames": ["waterbottle.fill", "thermometer.snowflake", "leaf.fill"],
+    "description": "TempShield双层真空隔热技术，保冷24小时，保热12小时。BPA-free材质，不锈钢18/8食品级。多色可选，户外运动必备。",
+    "highlights": [
+      { "id": "h24", "iconName": "thermometer.snowflake",  "title": "24小时保冷",  "subtitle": "双层真空隔热技术" },
+      { "id": "h25", "iconName": "leaf.fill",               "title": "环保材质",    "subtitle": "BPA-free，可回收不锈钢" }
+    ],
+    "warnings": [],
+    "tags": [
+      { "label": "人气之选", "style": "popular" },
+      { "label": "性价比高", "style": "value" }
+    ],
+    "source": "亚马逊自营",
+    "amazonURL": "https://www.amazon.com/dp/B0DFNL5RP3",
+    "categoryId": "hot",
+    "isBadged": true,
+    "isOnSale": true
+  }
+]
