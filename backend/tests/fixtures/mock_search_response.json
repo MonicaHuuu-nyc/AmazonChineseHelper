@@ -1,37 +1,410 @@
 {
   "SearchResult": {
-    "TotalResultCount": 1,
+    "TotalResultCount": 12,
     "Items": [
       {
-        "ASIN": "B0TEST0001",
+        "ASIN": "B09JB8KPNW",
+        "DetailPageURL": "https://www.amazon.com/dp/B09JB8KPNW",
         "ItemInfo": {
-          "Title": {
-            "DisplayValue": "Test Bluetooth Speaker Portable"
-          },
+          "Title": {"DisplayValue": "JBL Charge 5 Portable Bluetooth Speaker with IP67 Waterproof and USB Charge Out"},
+          "Classifications": {"Binding": {"DisplayValue": "Electronics"}},
           "Features": {
             "DisplayValues": [
-              "Bluetooth 5.3 connectivity",
-              "IPX7 waterproof rating"
+              "JBL Pro Sound delivers stunningly powerful, room-filling audio",
+              "IP67 waterproof and dustproof for worry-free outdoor use",
+              "Up to 20 hours of playtime on a single charge",
+              "Built-in power bank charges your devices via USB",
+              "PartyBoost pairs multiple JBL speakers for bigger sound"
             ]
           }
         },
         "Offers": {
-          "Listings": [
-            {
-              "Price": {
-                "Amount": 29.99,
-                "Currency": "USD"
-              }
-            }
-          ]
+          "Listings": [{
+            "Price": {"Amount": 179.95, "Currency": "USD", "DisplayAmount": "$179.95"},
+            "SavingBasis": {"Amount": 199.95, "Currency": "USD"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
         },
         "Images": {
-          "Primary": {
-            "Large": {
-              "URL": "https://example.com/image.jpg"
-            }
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/71He4bFMO4L._AC_SL1500_.jpg"}},
+          "Variants": [
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/71cHMgj2LxL._AC_SL1500_.jpg"}},
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/71KA0GeUSKL._AC_SL1500_.jpg"}}
+          ]
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "172282", "DisplayName": "Electronics"}]
+        },
+        "CustomerReviews": {"Count": 58420, "StarRating": {"Value": 4.7}}
+      },
+      {
+        "ASIN": "B0CXKJM8X3",
+        "DetailPageURL": "https://www.amazon.com/dp/B0CXKJM8X3",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "Sony WH-1000XM5 Wireless Noise Canceling Headphones"},
+          "Classifications": {"Binding": {"DisplayValue": "Electronics"}},
+          "Features": {
+            "DisplayValues": [
+              "Industry-leading noise cancellation with Auto NC Optimizer",
+              "Exceptional sound quality with 30mm carbon fiber composite driver",
+              "Up to 30 hours of battery life with quick charging",
+              "Crystal-clear hands-free calling with 4 beamforming microphones",
+              "Ultra-comfortable and lightweight design for all-day wear"
+            ]
           }
-        }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 298.00, "Currency": "USD", "DisplayAmount": "$298.00"},
+            "SavingBasis": {"Amount": 399.99, "Currency": "USD"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SL1500_.jpg"}},
+          "Variants": [
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/51O3F2HGKQL._AC_SL1500_.jpg"}}
+          ]
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "172282", "DisplayName": "Electronics"}]
+        },
+        "CustomerReviews": {"Count": 12350, "StarRating": {"Value": 4.5}}
+      },
+      {
+        "ASIN": "B0D3J98W75",
+        "DetailPageURL": "https://www.amazon.com/dp/B0D3J98W75",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "Apple AirPods Pro 2nd Generation with USB-C MagSafe Charging Case"},
+          "Classifications": {"Binding": {"DisplayValue": "Electronics"}},
+          "Features": {
+            "DisplayValues": [
+              "Active Noise Cancellation up to 2x more effective",
+              "Adaptive Audio seamlessly blends Transparency and ANC",
+              "Personalized Spatial Audio with dynamic head tracking",
+              "Up to 6 hours of listening time with ANC enabled",
+              "MagSafe, Apple Watch, and USB-C charging options"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 189.99, "Currency": "USD", "DisplayAmount": "$189.99"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg"}},
+          "Variants": [
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/71zny7BTRlL._AC_SL1500_.jpg"}}
+          ]
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "172282", "DisplayName": "Electronics"}]
+        },
+        "CustomerReviews": {"Count": 89210, "StarRating": {"Value": 4.7}}
+      },
+      {
+        "ASIN": "B0BT9CXXXX",
+        "DetailPageURL": "https://www.amazon.com/dp/B0BT9CXXXX",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "Stanley Quencher H2.0 FlowState Stainless Steel Vacuum Insulated Tumbler 40oz"},
+          "Classifications": {"Binding": {"DisplayValue": "Kitchen"}},
+          "Features": {
+            "DisplayValues": [
+              "Double-wall vacuum insulation keeps drinks cold for 11 hours",
+              "Recycled 18/8 stainless steel construction",
+              "Ergonomic comfort-grip handle for easy carrying",
+              "Fits most car cup holders",
+              "Dishwasher safe for easy cleaning"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 35.00, "Currency": "USD", "DisplayAmount": "$35.00"},
+            "SavingBasis": {"Amount": 45.00, "Currency": "USD"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/71GOKPXQ-aL._AC_SL1500_.jpg"}},
+          "Variants": [
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/71jM6OuelKL._AC_SL1500_.jpg"}}
+          ]
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "1055398", "DisplayName": "Home & Kitchen"}]
+        },
+        "CustomerReviews": {"Count": 142800, "StarRating": {"Value": 4.6}}
+      },
+      {
+        "ASIN": "B0DJYYYYYY",
+        "DetailPageURL": "https://www.amazon.com/dp/B0DJYYYYYY",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "Ninja AF101 Air Fryer 4 Quart Ceramic Coated Basket"},
+          "Classifications": {"Binding": {"DisplayValue": "Kitchen"}},
+          "Features": {
+            "DisplayValues": [
+              "Wide temperature range from 105°F to 400°F",
+              "4-quart ceramic coated nonstick basket",
+              "Air fry, roast, reheat, and dehydrate functions",
+              "Up to 75% less fat than traditional frying",
+              "Dishwasher-safe parts for easy cleanup"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 69.99, "Currency": "USD", "DisplayAmount": "$69.99"},
+            "SavingBasis": {"Amount": 99.99, "Currency": "USD"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/71OVGyyHblL._AC_SL1500_.jpg"}},
+          "Variants": []
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "1055398", "DisplayName": "Home & Kitchen"}]
+        },
+        "CustomerReviews": {"Count": 45670, "StarRating": {"Value": 4.7}}
+      },
+      {
+        "ASIN": "B0CRZZZZZZ",
+        "DetailPageURL": "https://www.amazon.com/dp/B0CRZZZZZZ",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "CeraVe Moisturizing Cream for Dry Skin 19oz with Hyaluronic Acid"},
+          "Classifications": {"Binding": {"DisplayValue": "Beauty"}},
+          "Features": {
+            "DisplayValues": [
+              "Developed with dermatologists for normal to dry skin",
+              "Contains 3 essential ceramides to restore skin barrier",
+              "Hyaluronic acid helps retain skin's natural moisture",
+              "Non-comedogenic, fragrance-free formula",
+              "National Eczema Association accepted"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 16.08, "Currency": "USD", "DisplayAmount": "$16.08"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/61S7BrCBj7L._SL1500_.jpg"}},
+          "Variants": []
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "3760911", "DisplayName": "Beauty & Personal Care"}]
+        },
+        "CustomerReviews": {"Count": 198400, "StarRating": {"Value": 4.8}}
+      },
+      {
+        "ASIN": "B07FZ8S74R",
+        "DetailPageURL": "https://www.amazon.com/dp/B07FZ8S74R",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "LEGO Classic Large Creative Brick Box 10698 Building Toy Set 790 Pieces"},
+          "Classifications": {"Binding": {"DisplayValue": "Toy"}},
+          "Features": {
+            "DisplayValues": [
+              "790 pieces in 33 different colors for endless creativity",
+              "Includes windows, doors, wheels, and eyes for building variety",
+              "Compatible with all LEGO construction sets",
+              "Comes in sturdy storage box for easy cleanup",
+              "Great for ages 4 and up, promotes imaginative play"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 39.99, "Currency": "USD", "DisplayAmount": "$39.99"},
+            "SavingBasis": {"Amount": 49.99, "Currency": "USD"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/81dD4CQLWSL._AC_SL1500_.jpg"}},
+          "Variants": [
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/81YnTOFXJsL._AC_SL1500_.jpg"}}
+          ]
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "165793011", "DisplayName": "Toys & Games"}]
+        },
+        "CustomerReviews": {"Count": 35780, "StarRating": {"Value": 4.8}}
+      },
+      {
+        "ASIN": "B0CPTAAAAA",
+        "DetailPageURL": "https://www.amazon.com/dp/B0CPTAAAAA",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "Hanes Men's EcoSmart Fleece Sweatshirt Cotton Blend Pullover"},
+          "Classifications": {"Binding": {"DisplayValue": "Apparel"}},
+          "Features": {
+            "DisplayValues": [
+              "50% cotton, 50% polyester EcoSmart fleece",
+              "Made with up to 5% recycled polyester from plastic bottles",
+              "Soft, medium-weight fleece for comfort in any season",
+              "Lay-flat collar and ribbed cuffs for great fit",
+              "Tag-free comfort with printed inside label"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 12.00, "Currency": "USD", "DisplayAmount": "$12.00"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/71YzhQMUF4L._AC_SL1500_.jpg"}},
+          "Variants": []
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "7141123011", "DisplayName": "Clothing, Shoes & Jewelry"}]
+        },
+        "CustomerReviews": {"Count": 267300, "StarRating": {"Value": 4.4}}
+      },
+      {
+        "ASIN": "B08MQZYSVC",
+        "DetailPageURL": "https://www.amazon.com/dp/B08MQZYSVC",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "Pampers Swaddlers Disposable Diapers Size 1, 198 Count"},
+          "Classifications": {"Binding": {"DisplayValue": "Baby Product"}},
+          "Features": {
+            "DisplayValues": [
+              "Pampers #1 choice of hospitals, nurses, and parents",
+              "BreatheFree Liner wicks wetness and mess away from skin",
+              "Soft, breathable outer cover helps keep skin dry",
+              "Wetness indicator shows when baby might need a change",
+              "Umbilical cord notch for newborn comfort"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 49.99, "Currency": "USD", "DisplayAmount": "$49.99"},
+            "SavingBasis": {"Amount": 59.99, "Currency": "USD"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/81V8HAVVReL._SL1500_.jpg"}},
+          "Variants": []
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "165796011", "DisplayName": "Baby"}]
+        },
+        "CustomerReviews": {"Count": 86700, "StarRating": {"Value": 4.8}}
+      },
+      {
+        "ASIN": "B07RGZ5NKZ",
+        "DetailPageURL": "https://www.amazon.com/dp/B07RGZ5NKZ",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "Manduka PRO Yoga Mat 6mm Thick Non-Slip High-Performance Grip 71 Inch"},
+          "Classifications": {"Binding": {"DisplayValue": "Sports"}},
+          "Features": {
+            "DisplayValues": [
+              "6mm thick high-density cushion for joint protection",
+              "Closed-cell surface prevents sweat from seeping in",
+              "Non-toxic, emissions-free manufacturing (OEKO-TEX certified)",
+              "Lifetime guarantee for quality assurance",
+              "71 inches long x 26 inches wide for all body types"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 92.00, "Currency": "USD", "DisplayAmount": "$92.00"},
+            "SavingBasis": {"Amount": 120.00, "Currency": "USD"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/61-j8SjSGmL._AC_SL1500_.jpg"}},
+          "Variants": [
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/61wHPkLr1ML._AC_SL1500_.jpg"}}
+          ]
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "3375251", "DisplayName": "Sports & Outdoors"}]
+        },
+        "CustomerReviews": {"Count": 9820, "StarRating": {"Value": 4.7}}
+      },
+      {
+        "ASIN": "B0CLNBBBBB",
+        "DetailPageURL": "https://www.amazon.com/dp/B0CLNBBBBB",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "Nature Made Multivitamin for Him 50+ Tablets 90 Count"},
+          "Classifications": {"Binding": {"DisplayValue": "Health & Household"}},
+          "Features": {
+            "DisplayValues": [
+              "Specially formulated for men 50 and older",
+              "22 key nutrients including Vitamin D3, B12, and Zinc",
+              "USP verified for purity and potency",
+              "No artificial colors, flavors, or preservatives",
+              "Supports immune, muscle, and heart health"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 11.58, "Currency": "USD", "DisplayAmount": "$11.58"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/71X5RoWGMVL._AC_SL1500_.jpg"}},
+          "Variants": []
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "16310101", "DisplayName": "Grocery & Gourmet Food"}]
+        },
+        "CustomerReviews": {"Count": 21340, "StarRating": {"Value": 4.7}}
+      },
+      {
+        "ASIN": "B0DPETCCCC",
+        "DetailPageURL": "https://www.amazon.com/dp/B0DPETCCCC",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "IAMS Proactive Health Adult Dry Dog Food Chicken and Whole Grain 30lb"},
+          "Classifications": {"Binding": {"DisplayValue": "Pet Supplies"}},
+          "Features": {
+            "DisplayValues": [
+              "Real, farm-raised chicken is the #1 ingredient",
+              "Tailored blend of wholesome fibers for healthy digestion",
+              "Enriched with antioxidants to support immune system",
+              "Crunchy kibble helps reduce plaque buildup",
+              "No artificial preservatives, flavors, or fillers"
+            ]
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 36.98, "Currency": "USD", "DisplayAmount": "$36.98"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/71RDVkzJFrL._AC_SL1500_.jpg"}},
+          "Variants": []
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "2619533011", "DisplayName": "Pet Supplies"}]
+        },
+        "CustomerReviews": {"Count": 54320, "StarRating": {"Value": 4.6}}
       }
     ]
   }

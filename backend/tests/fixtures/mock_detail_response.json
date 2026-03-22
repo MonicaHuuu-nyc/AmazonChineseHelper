@@ -1,0 +1,48 @@
+{
+  "ItemsResult": {
+    "Items": [
+      {
+        "ASIN": "B09JB8KPNW",
+        "DetailPageURL": "https://www.amazon.com/dp/B09JB8KPNW",
+        "ItemInfo": {
+          "Title": {"DisplayValue": "JBL Charge 5 Portable Bluetooth Speaker with IP67 Waterproof and USB Charge Out"},
+          "Classifications": {"Binding": {"DisplayValue": "Electronics"}},
+          "Features": {
+            "DisplayValues": [
+              "JBL Pro Sound delivers stunningly powerful, room-filling audio",
+              "IP67 waterproof and dustproof for worry-free outdoor use",
+              "Up to 20 hours of playtime on a single charge",
+              "Built-in power bank charges your devices via USB",
+              "PartyBoost pairs multiple JBL speakers for bigger sound"
+            ]
+          },
+          "ProductInfo": {
+            "ItemDimensions": {
+              "Weight": {"DisplayValue": 1.76, "Unit": "Pounds"}
+            }
+          }
+        },
+        "Offers": {
+          "Listings": [{
+            "Price": {"Amount": 179.95, "Currency": "USD", "DisplayAmount": "$179.95"},
+            "SavingBasis": {"Amount": 199.95, "Currency": "USD"},
+            "DeliveryInfo": {"IsPrimeEligible": true},
+            "MerchantInfo": {"Name": "Amazon.com"}
+          }]
+        },
+        "Images": {
+          "Primary": {"Large": {"URL": "https://m.media-amazon.com/images/I/71He4bFMO4L._AC_SL1500_.jpg"}},
+          "Variants": [
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/71cHMgj2LxL._AC_SL1500_.jpg"}},
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/71KA0GeUSKL._AC_SL1500_.jpg"}},
+            {"Large": {"URL": "https://m.media-amazon.com/images/I/81G9fzJEOqL._AC_SL1500_.jpg"}}
+          ]
+        },
+        "BrowseNodeInfo": {
+          "BrowseNodes": [{"Id": "172282", "DisplayName": "Electronics"}]
+        },
+        "CustomerReviews": {"Count": 58420, "StarRating": {"Value": 4.7}}
+      }
+    ]
+  }
+}
