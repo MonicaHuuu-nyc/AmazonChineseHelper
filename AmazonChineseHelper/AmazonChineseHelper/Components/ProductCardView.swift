@@ -19,9 +19,11 @@ struct ProductCardCompact: View {
                 .lineLimit(2)
                 .frame(width: 120, alignment: .leading)
 
-            Text(CurrencyFormatter.format(price: product.price, currency: product.currency))
-                .font(AppTypography.priceSmall)
-                .foregroundStyle(AppColors.priceColor)
+            PriceView(
+                price: product.price,
+                currency: product.currency,
+                size: .small
+            )
         }
         .padding(AppSpacing.md)
         .cardStyle()
@@ -232,19 +234,23 @@ private let saleProduct = Product(
 #Preview("Compact") {
     ProductCardCompact(product: sampleProduct)
         .padding()
+        .environment(SettingsStore())
 }
 
 #Preview("Search Result") {
     ProductCardSearch(product: sampleProduct, isFavorite: true)
         .padding()
+        .environment(SettingsStore())
 }
 
 #Preview("Favorite") {
     ProductCardFavorite(product: saleProduct)
         .padding()
+        .environment(SettingsStore())
 }
 
 #Preview("Recommendation") {
     ProductCardRecommendation(product: sampleProduct)
         .padding()
+        .environment(SettingsStore())
 }

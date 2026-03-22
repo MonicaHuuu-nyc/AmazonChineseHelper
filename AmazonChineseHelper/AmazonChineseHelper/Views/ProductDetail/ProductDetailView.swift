@@ -6,6 +6,7 @@ struct ProductDetailView: View {
     @State private var viewModel: ProductDetailViewModel
     @State private var currentImageIndex = 0
     @Environment(FavoritesStore.self) private var favoritesStore
+    @Environment(SettingsStore.self) private var settingsStore
 
     init(productID: String) {
         self.productID = productID
@@ -129,25 +130,14 @@ struct ProductDetailView: View {
     }
 
     private func priceRow(_ product: Product) -> some View {
-        HStack(alignment: .firstTextBaseline, spacing: AppSpacing.sm) {
-            Text(CurrencyFormatter.format(price: product.price, currency: product.currency))
-                .font(AppTypography.price)
-                .foregroundStyle(AppColors.priceColor)
-
-            if let original = product.originalPrice {
-                Text(CurrencyFormatter.format(price: original, currency: product.currency))
-                    .font(AppTypography.body)
-                    .foregroundStyle(AppColors.textTertiary)
-                    .strikethrough()
-            }
-
-            if let converted = product.convertedPrice {
-                let targetCurrency: CurrencyUnit = product.currency == .usd ? .cny : .usd
-                Text("约 \(CurrencyFormatter.format(price: converted, currency: targetCurrency))")
-                    .font(AppTypography.subheadline)
-                    .foregroundStyle(AppColors.textSecondary)
-            }
-        }
+        PriceView(
+            price: product.price,
+            currency: product.currency,
+            originalPrice: product.originalPrice,
+            convertedPrice: product.convertedPrice,
+            showConverted: true,
+            size: .large
+        )
     }
 
     // MARK: - Warnings

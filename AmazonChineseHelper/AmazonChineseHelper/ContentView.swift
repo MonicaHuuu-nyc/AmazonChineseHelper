@@ -8,6 +8,7 @@ enum AppTab: Hashable {
 
 struct ContentView: View {
     @State private var selectedTab: AppTab = .home
+    @Environment(SettingsStore.self) private var settingsStore
 
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -26,6 +27,7 @@ struct ContentView: View {
             }
         }
         .tint(AppColors.primaryBlue)
+        .dynamicTypeSize(settingsStore.isLargeTextMode ? .xxxLarge : .large)
     }
 }
 
